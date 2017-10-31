@@ -1,0 +1,30 @@
+
+{
+  "name": "webparts-shared",
+  "version": "2.3.2",
+  "description": "Webparts shared module for Angular for POC purposes.",
+  "main": "webpack-shared.js",
+  "typings": "src/index.d.ts",
+  "scripts": {
+    "release": "generate-release"
+  },
+  "keywords": [
+    "webparts",
+	"webpart",
+	"webparts-shared"
+  ],
+  "author": "yassin akh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AkhayadYassin/webparts.shared"
+  },
+  "homepage": "https://github.com/AkhayadYassin/webparts.shared",
+  "bugs": {
+    "url": "https://github.com/AkhayadYassin/webparts.shared"
+  },
+  "peerDependencies": {
+    "@angular/core": "^2.4.0 || ^4.0.0",
+    "rxjs": "^5.0.1"
+  }
+}
